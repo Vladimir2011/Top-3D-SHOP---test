@@ -1,8 +1,8 @@
 {
-  "name": "cleverbaby",
-  "version": "0.0.1",
-  "homepage": "https://github.com/Vladimir2011/CleverBaby",
-  "description": "Английский язык для детей",
+  "name": "top-3d-shop",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Vladimir2011/Top-3D-SHOP---test",
+  "description": "Интегратор 3D принтеров",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack --mode production",
