@@ -1,0 +1,123 @@
+.features__wrapper {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .features__wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px
+  }
+}
+
+.features__blocks-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 685px) {
+  .features__blocks-wrapper {
+    flex-direction: column;
+  }
+}
+
+.features__info-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 333px;
+}
+
+.features__title {
+  margin: 0 0 40px 0;
+  font-family: "SF Pro", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1023px) {
+  .features__title {
+    margin: 0 0 55px 0;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .features__title {
+    margin: 0 0 25px 0;
+    font-size: 24px;
+  }
+}
+
+.features__button {
+  width: 248px;
+  font-family: "SF Pro", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffff;
+  background-color: #D2001C;
+  padding: 12px 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.features__button:hover {
+  background-color: #c41e24;
+}
+
+.features__pin {
+  font-family: "SF Pro", "Arial", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #C4C4C4;
+  max-width: 280px;
+}
+
+@media screen and (max-width: 685px) {
+  .features__pin {
+    font-size: 11px;
+  }
+}
+
+.features__info-block--resume {
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 685px) {
+  .features__info-block--resume {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+.features__info-block--text {
+  max-width: 696px;
+}
+
+.features__paragraph {
+  margin: 0 0 10px 0;
+  font-family: "SF Pro", "Arial", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #4D4D4D;
+}
+
+@media screen and (max-width: 685px) {
+  .features__paragraph {
+    font-size: 13px;
+  }
+}
+
+.features__link {
+  text-decoration: underline;
+  color: #D2001C;
+}

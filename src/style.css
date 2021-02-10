@@ -1,0 +1,57 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts.css');
+@import url('./blocks/container.css');
+@import url('./blocks/button.css');
+@import url('./blocks/header.css');
+@import url('./blocks/social.css');
+@import url('./blocks/field.css');
+@import url('./blocks/form.css');
+@import url('./blocks/main-nav.css');
+@import url('./blocks/features.css');
+@import url('./blocks/company.css');
+@import url('./blocks/about-us.css');
+@import url('./blocks/slider.css');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  overflow: hidden;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(100%);
+}
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  background: #ffffff;
+  padding-top: 12px;
+}

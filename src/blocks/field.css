@@ -1,0 +1,15 @@
+.field__input {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  outline: none;
+}
+
+.field__input--search {
+  border: none;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #9E9E9E;
+  height: 44px;
+  background: rgba(0,0,0,0);
+}
